@@ -1,23 +1,21 @@
 # Cobra CLI Template
 
-Steps followed:
+## Initialization
 
 ```bash
 brew install go
-go mod init github.com/zhouselena/resilienceScore
+go mod init <github-url>
 go get -u github.com/spf13/cobra@latest
 ```
 
-Run without build:
-
-```bash
-go run main.go
-```
-
-Run with build:
+## Run (with build)
 
 ```bash
 bash run-cobra-cli-template.sh
 ./bin/cobra-cli-template command1
 ...
 ```
+
+## Notes
+- No Docker deployment
+- Can consider implementing options for future use
