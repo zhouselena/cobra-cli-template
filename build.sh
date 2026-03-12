@@ -5,7 +5,7 @@ BIN_DIR="bin"
 mkdir -p "$BIN_DIR"
 
 # Build binary from main.go
-go build -o "$BIN_DIR/cobra-cli-template" ./main.go
+go build -o "$BIN_DIR/cobra-cli-template" ./cmd/cobra-cli-template
 
 # Ensure the binary is executable
 chmod +x "$BIN_DIR/cobra-cli-template"
